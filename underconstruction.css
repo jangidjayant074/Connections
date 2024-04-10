@@ -20,6 +20,8 @@ a:hover{
 
 body{
     background-color: #f8f8f8;
+    background-image: url(./Assets/construction.jpeg);
+  
 }
 
 nav{
@@ -67,31 +69,37 @@ nav .buttons a{
 body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display:grid;
+   
     height: 100vh;
     margin: 0;
   }
   
   .container {
+    height: 200px;
     text-align: center;
     padding: 2rem;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: rgba(0,0,0, 0.4);
+
   }
   
   h1 {
-    color: #333;
+    color: #fff;
     font-size: 2.5rem;
     margin-bottom: 1rem;
   }
   
   p {
-    color: #666;
-    font-size: 1.2rem;
+  
+
+
+    color: #fff;
+    font-size: 1.6rem;
     margin-bottom: 2rem;
+  
   }
   
   .progress-bar {
