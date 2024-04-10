@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="./contactUs.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+   
+  <nav>
+    <div class="left">
+      <div class="logo">
+        <img src="assests/logo.png" />
+      </div>
+      <div class="links">
+        <a href="#">Home</a>
+        <a href="./courses.html">Courses</a>
+        <a href="#">Articles</a>
+        <a href="#">Podcasts</a>
+        <a href="#">About Us</a>
+        <a href="./contactUs.html">Contact Us</a>
+      </div>
+    </div>
+
+    <div class="buttons">
+      <a href="./contactUs.html"><i class="bx bx-support"></i></a>
+      <a href="#"><i class="bx bx-basket"></i></a>
+      <a href="#"><i class="bx bx-user"></i></a>
+    </div>
+  </nav>
+
+  <main>
+    <div class="contact-container">
+      <div class="contact-info">
+        <h2>Contact Information</h2>
+        <ul>
+          <li><i class="fas fa-map-marker-alt"></i> 19, Gandhi Road, Baraut, Baghpat, UP-250611</li>
+          <li><i class="fas fa-phone"></i> (741) 826-6374</li>
+          <li><i class="fas fa-envelope"></i> info_college@apnaindia.net</li>
+        </ul>
+      </div>
+
+      <form id="contact-form">
+        <h2>Send Us a Message</h2>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </main>
+
+  <div id="response-message" class="hidden"></div>
+
+  <script src="./contactUs.js"></script>
+</body>
+</html>      
